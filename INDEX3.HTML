@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGUA SOLAR</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(playa.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 200px 1fr;
+            grid-template-areas: 
+                "header header"
+                "nav main"
+                "footer footer";
+            height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        nav {
+            grid-area: nav;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            height: 100%;
+        }
+
+        main {
+            grid-area: main;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        footer {
+            grid-area: footer;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav ul li a:hover {
+            color: #3012b8;
+            text-decoration: underline;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 30%;
+        }
+
+        h1, h2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1 {
+            color: rgb(16, 55, 139);
+            font-size: 110%;
+        }
+
+        h2 {
+            font-size: 110%;
+        }
+
+        #nosotros p {
+            font-style: italic;
+        }
+
+        #productos table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        #productos th, #productos td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #productos th {
+            background-color: #f2f2f2;
+        }
+
+        footer a {
+            color: #fff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agua Solar en Lata</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a nuestra página de Agua en Lata. Descubre la frescura y vitalidad del agua energizada por el sol en nuestras latas innovadoras.</p>
+        </section>
+        <section id="productos">
+            <h2>Productos</h2>
+            <p>Explora nuestra selección de agua enlatada cargada de energía solar.</p>
+            <div class="gallery">
+                <img src="img4.jpg" alt="Agua en Lata">
+                <img src="img3.jpg" alt="Agua en Lata con Sabor">
+                <img src="img2.jpg" alt="Agua en Lata Regular">
+            </div>
+        </section>
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>Somos un equipo apasionado dedicado a ofrecerte una experiencia única de hidratación que fusiona la pureza del agua con la energía del sol.</p>
+        </section>
+        <section id="precios">
+            <h2>Precios</h2>
+            <p>5900 COP. O si necesitas al por mayor comunícate con nosotros.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para consultas y pedidos, contáctanos con DULCE en:</p>
+            <p>Teléfono: 3012259091</p>
+            <p>Email: aguaenlata.com - mesasalazardulcemaria@gmail.com </p>
+        </section>
+    </main>
+    <footer>
+        <p>2024 Agua en Lata Solar.</p>
+        <p>Dulce María Mesa</p>
+        <p>Grado: 10</p>
+        <a href="https://www.aguaenlata.com" target="_blank">Visita la página para que veas frescura</a>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
